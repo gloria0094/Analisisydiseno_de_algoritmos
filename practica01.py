@@ -1,3 +1,5 @@
+#Liga del archivo reporte.pdf
+
 import time
 inicio=time.time()
 def bubble_sort(arr):
