@@ -1,0 +1,10 @@
+n= int(input("Por favor, ingresa un número entero: "))
+def factorialR(n):
+    if n==0:
+        return 1 
+    else:
+            return n*factorialR(n-1)
+            
+resultado= factorialR(n)
+print(resultado)
+print(f"El factorial de {n} es: {resultado}")
