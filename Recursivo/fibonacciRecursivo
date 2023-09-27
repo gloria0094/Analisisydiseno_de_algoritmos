@@ -1,0 +1,12 @@
+
+n= int(input("Por favor, ingresa un número entero: "))
+def fibonacciR(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacciR(n-1) + fibonacciR(n-2)
+
+# Ejemplo de uso
+#numero = 5
+resultado = fibonacciR(n)
+print(f"la secuencia de Fibonacci es: {resultado}")
